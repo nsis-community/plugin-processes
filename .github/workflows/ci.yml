@@ -28,4 +28,5 @@ jobs:
             Contrib/Processes/StdAfx.cpp
             Contrib/Processes/processes.cpp
             Contrib/Processes/processes.rc
+          targets: x86-ansi
           release: ${{ github.event_name == 'release' }}
